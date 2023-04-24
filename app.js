@@ -14,7 +14,7 @@ const cors = require("cors");
 const rateLimit = require("express-rate-limit");
 const sanitize = require("mongo-sanitize");
 const app = express();
-const User = require("./User");
+const User = require("./User.js");
 const CronJob = require("cron").CronJob;
 const LocalStrategy = require("passport-local").Strategy;
 
@@ -89,7 +89,7 @@ app.use("/little-china", littlechina);
 app.use("/uac", uac);
 
 mongoose.connect(
-  "mongodb://localhost:27017",
+  "mongodb+srv://panshulsaxena01:R0Dh8GnlQnK16YZ9@cluster0.cesimqr.mongodb.net/test",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
