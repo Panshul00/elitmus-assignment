@@ -2,7 +2,7 @@ window.onload = function () {
   const btnone = document.getElementById("pathseven");
   const btntwo = document.getElementById("patheight");
   const btnthree = document.getElementById("pathnine");
-  const baseURL = "http://localhost:3000/";
+  const baseURL = "https://elitmus-assignment.panshul00.repl.co/";
   btnone.addEventListener("click", async function () {
     console.log("halo");
     const waiting = await fetch(baseURL + "setseven", {

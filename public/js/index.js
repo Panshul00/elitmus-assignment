@@ -140,7 +140,7 @@ function revealWord(guess) {
   setTimeout(() => {
     if (isWinner) {
       alert("Congratulations!");
-      window.location.href = "http://localhost:3000/setone";
+      window.location.href = "https://elitmus-assignment.panshul00.repl.co/setone";
     } else if (isGameOver) {
       alert(`Better luck next time! The word was ${state.secret}.`);
     }

@@ -45,7 +45,7 @@ const limiter = rateLimit({
 });
 
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "https://elitmus-assignment.panshul00.repl.co",
   credentials: true, //access-control-allow-credentials:true
   optionSuccessStatus: 200,
 };
